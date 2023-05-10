@@ -1,0 +1,25 @@
+.worth p {
+    margin-top: 150px;
+}
+
+.button p {
+    margin-top: 0px;
+}
+
+.button {
+    margin-top: 115px;
+}
+
+.content {
+    position: relative;
+}
+
+.cube {
+    position: absolute;
+    transform: translate(15%, -6%);
+    width: 760px;
+    height: 660px;
+    background-color: #F9A6E3;
+    opacity: 0.4;
+    z-index: -1;
+}
