@@ -1,4 +1,18 @@
 .button p {
     font-size: 19px;
     font-family: 'Helvetica 65 Medium', sans-serif;
+    color: white;
+    background: #85A082;
+    border-radius: 27.5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.button {
+    background: #85A082;
+    border-radius: 27.5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
 }
