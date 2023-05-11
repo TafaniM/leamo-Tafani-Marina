@@ -1,0 +1,35 @@
+.recipe p {
+    margin-top: 260px;
+    margin-bottom: 150px;
+}
+
+.recipe .button p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.background {
+    position: relative;
+}
+
+.block {
+    position: absolute;
+    transform: translate(7%, 8%);
+    width: 1440px;
+    height: 860px;
+    background-color: #488B50;
+    z-index: -1;
+}
+
+.back {
+    position: relative;
+}
+
+.blo {
+    position: absolute;
+    transform: translate(-17%, -4%);
+    width: 540px;
+    height: 870px;
+    background-color: white;
+    z-index: 1;
+}
