@@ -12,13 +12,15 @@
 
 .content {
     position: relative;
+    height: 500px;
+    margin-top: -350px;
 }
 
 .cube {
     position: absolute;
-    transform: translate(15%, -6%);
-    width: 760px;
-    height: 660px;
+    transform: translate(10%, 105%);
+    width: 50%;
+    height: 137%;
     background-color: #F9A6E3;
     opacity: 0.4;
     z-index: -1;
