@@ -5,6 +5,12 @@
     margin-bottom: 60px;
 }
 
+@media (max-width: 760px) {
+    .products h2 {
+        font-size: 15px;
+    }
+}
+
 .form1 {
     position: relative;
     display: inline-block;
@@ -28,16 +34,37 @@
     z-index: -1;
 }
 
+@media (max-width: 760px) {
+    .shape1 {
+        top: 60%;
+        width: 15%;
+        height: 200%;
+    }
+}
+
 .form2 {
     position: relative;
     display: inline-block;
     margin-bottom: -150px;
 }
 
+@media (max-width: 760px) {
+    .form2 {
+        margin-bottom: -30px;
+    }
+}
+
 .move2 {
     position: relative;
     top: -300px;
     left: 75%;
+}
+
+@media (max-width: 760px) {
+    .move2 {
+        top: -90px;
+        left: 33%;
+    }
 }
 
 .shape2 {
@@ -49,6 +76,12 @@
     background-color: #DBCD68;
     border-radius: 40% 40% 0 0;
     z-index: -1;
+}
+
+@media (max-width: 760px) {
+    .shape2 {
+        top: -40%;
+    }
 }
 
 .form3 {
@@ -63,6 +96,13 @@
     left: 300%;
 }
 
+@media (max-width: 760px) {
+    .move3 {
+        top: -200px;
+        left: 400%;
+    }
+}
+
 .shape3 {
     position: absolute;
     top: -155%;
@@ -73,4 +113,13 @@
     border-radius: 40% 40% 0 0;
     opacity: 0.7;
     z-index: -1;
+}
+
+@media (max-width: 760px) {
+    .shape3 {
+        top: -80%;
+        left: 75%;
+        width: 15%;
+        height: 50%;
+    }
 }
