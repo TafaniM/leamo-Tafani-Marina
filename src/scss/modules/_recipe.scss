@@ -3,6 +3,13 @@
     margin-bottom: 150px;
 }
 
+@media (max-width: 760px) {
+    .recipe p {
+        margin: 80px 40px 50px 40px;
+        text-align: center;
+    }
+}
+
 .recipe .button p {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -14,22 +21,35 @@
 
 .block {
     position: absolute;
-    transform: translate(7%, 8%);
-    width: 1440px;
+    transform: translate(0%, 8%);
+    width: 100%;
     height: 860px;
     background-color: #488B50;
     z-index: -1;
 }
 
-.back {
-    position: relative;
+@media (max-width: 760px) {
+    .block {
+        position: absolute;
+        transform: translate(6%, 130%);
+        width: 90%;
+        height: 450px;
+        background-color: #488B50;
+        z-index: -1;
+    }
 }
 
-.blo {
-    position: absolute;
-    transform: translate(-17%, -4%);
-    width: 540px;
-    height: 870px;
-    background-color: white;
-    z-index: 1;
+@media (min-width: 760px) {
+    .back {
+        position: relative;
+    }
+
+    .blo {
+        position: absolute;
+        transform: translate(-17%, -4%);
+        width: 100%;
+        height: 870px;
+        background-color: white;
+        z-index: 1;
+    }
 }
