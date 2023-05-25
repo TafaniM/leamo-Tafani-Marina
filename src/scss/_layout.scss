@@ -13,3 +13,9 @@
 .container {
     margin-top: 275px;
 }
+
+@media (max-width: 760px) {
+    .container {
+        margin-top: 140px;
+    }
+}
